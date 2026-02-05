@@ -1,7 +1,6 @@
 # FitZone
 
-**Hola Miami**
-
 Andres Valdes
 
 Jorge Rivera
+Alexander guerrero 
