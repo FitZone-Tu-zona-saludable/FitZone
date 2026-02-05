@@ -1,6 +1,6 @@
 # FitZone
 
-**Hola Miami**
+
 
 Andres Valdes
 
