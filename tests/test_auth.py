@@ -32,3 +32,4 @@ def test_logs():
         contenido = f.read()
 
     assert "ACCESO EXITOSO" in contenido
+
