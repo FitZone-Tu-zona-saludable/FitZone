@@ -1,0 +1,173 @@
+[
+    {
+        "id": 1,
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "123",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 2,
+        "name": "Juan",
+        "email": "user@mail.com",
+        "password": "123",
+        "role": "user",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 3,
+        "name": "Seguridad",
+        "email": "seg@mail.com",
+        "password": "123",
+        "role": "seguridad",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 4,
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "1234",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 5,
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "1234",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 6,
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "1234",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 7,
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "1234",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 8,
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "1234",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 9,
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "1234",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 10,
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "1234",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 11,
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "1234",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 12,
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "1234",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 13,
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "1234",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 14,
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "1234",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 15,
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "1234",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 16,
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "1234",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 17,
+        "name": "fernando",
+        "email": "fer@mail.com",
+        "password": "1234",
+        "role": "user",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 18,
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "1234",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 19,
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "1234",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    }
+]
