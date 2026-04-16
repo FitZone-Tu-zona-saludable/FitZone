@@ -1,0 +1,149 @@
+import json
+import os
+from datetime import datetime, timedelta
+from src.models.client import Client
+
+
+class AuthService:
+    def __init__(self):
+        self.users = []
+        self.logs = []
+        self.user_file = "data/users.json"
+        self.log_file = "data/logs.json"
+        self.id_counter = 1
+
+        self.load_users()
+        self.load_logs()
+
+    # 🟩 LOGS
+    def add_log(self, message):
+        log = {
+            "date": datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+            "message": message
+        }
+        self.logs.append(log)
+        self.save_logs()
+
+    def load_logs(self):
+        if os.path.exists(self.log_file):
+            with open(self.log_file, "r") as f:
+                self.logs = json.load(f)
+
+    def save_logs(self):
+        os.makedirs("data", exist_ok=True)
+        with open(self.log_file, "w") as f:
+            json.dump(self.logs, f, indent=4)
+
+    # 🟩 USERS
+    def load_users(self):
+        os.makedirs("data", exist_ok=True)
+
+        if os.path.exists(self.user_file):
+            with open(self.user_file, "r") as f:
+                data = json.load(f)
+
+                for u in data:
+                    user = Client(
+                        u["id"], u["name"], u["email"], u["password"], u["role"]
+                    )
+                    user.payments = u.get("payments", [])
+                    user.membership = u.get("membership", None)
+
+                    self.users.append(user)
+
+                    if u["id"] >= self.id_counter:
+                        self.id_counter = u["id"] + 1
+        else:
+            self.create_user("Romel", "romel@mail.com", "123", "admin")
+            self.create_user("Juan", "user@mail.com", "123", "user")
+            self.create_user("Seguridad", "seg@mail.com", "123", "seguridad")
+
+    def save_users(self):
+        data = []
+        for u in self.users:
+            data.append({
+                "id": u.id_cliente,
+                "name": u.nombre,
+                "email": u.correo,
+                "password": u.password,
+                "role": u.role,
+                "payments": u.payments,
+                "membership": u.membership
+            })
+        with open(self.user_file, "w") as f:
+            json.dump(data, f, indent=4)
+
+    # 🟩 PERMISOS
+    def has_permission(self, user, action):
+        permissions = {
+            "admin": ["create", "delete", "update"],
+            "user": [],
+            "seguridad": ["view_logs"]
+        }
+        return action in permissions.get(user.get_role(), [])
+
+    # 🟩 CRUD
+    def create_user(self, name, email, password, role):
+        user = Client(self.id_counter, name, email, password, role)
+        self.users.append(user)
+        self.id_counter += 1
+        self.add_log(f"Usuario creado: {name}")
+        self.save_users()
+        return user
+
+    def get_users(self):
+        return self.users
+
+    def update_user(self, email, name):
+        for u in self.users:
+            if u.get_email() == email:
+                u.nombre = name
+                self.add_log(f"Usuario actualizado: {email}")
+                self.save_users()
+                return True
+        return False
+
+    def delete_user(self, email):
+        for u in self.users:
+            if u.get_email() == email:
+                self.users.remove(u)
+                self.add_log(f"Usuario eliminado: {email}")
+                self.save_users()
+                return True
+        return False
+
+    def login(self, email, password):
+        for u in self.users:
+            if u.get_email() == email and u.password == password:
+                self.add_log(f"{u.get_name()} inició sesión")
+                return u
+        self.add_log(f"Intento fallido: {email}")
+        return None
+
+    # 🟩 PAGOS + NOTIFICACIÓN
+    def add_payment(self, email, value, method):
+        for u in self.users:
+            if u.get_email() == email:
+                u.payments.append({"value": value, "method": method})
+                self.add_log(f"Pago confirmado: {email}")
+                self.save_users()
+                return True
+        return False
+
+    # 🟩 ESTADO MEMBRESÍA
+    def update_membership_status(self):
+        today = datetime.now()
+
+        for u in self.users:
+            if u.membership:
+                inicio = datetime.strptime(u.membership["fechaInicio"], "%Y-%m-%d")
+                fin = datetime.strptime(u.membership["fechaFin"], "%Y-%m-%d")
+
+                if today < inicio:
+                    u.membership["estado"] = "pendiente"
+                elif inicio <= today <= fin:
+                    u.membership["estado"] = "activa"
+                else:
+                    u.membership["estado"] = "vencida"
+
+        self.save_users()
