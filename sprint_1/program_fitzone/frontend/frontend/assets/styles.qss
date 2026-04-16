@@ -1,0 +1,110 @@
+QWidget {
+    background-color: #f4f6f9;
+    font-family: Arial;
+}
+
+/* BOTONES */
+QPushButton {
+    background-color: #2d89ef;
+    color: white;
+    border-radius: 8px;
+    height: 40px;
+    min-width: 120px;
+    max-width: 180px;
+    font-size: 14px;
+}
+
+QPushButton:hover {
+    background-color: #1b5fbd;
+}
+
+/* INPUTS */
+QLineEdit {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+QLineEdit:focus {
+    border: 1px solid #2d89ef;
+}
+
+/* TITULOS */
+QLabel {
+    font-size: 14px;
+}
+/* =========================
+   GLOBAL
+========================= */
+QWidget {
+    background-color: #f4f6f9;
+    font-family: Arial;
+}
+
+/* =========================
+   BOTONES
+========================= */
+QPushButton {
+    background-color: #2d89ef;
+    color: white;
+    border-radius: 8px;
+    height: 40px;
+    min-width: 120px;
+    max-width: 180px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+QPushButton:hover {
+    background-color: #1b5fbd;
+}
+
+QPushButton:pressed {
+    background-color: #144a96;
+}
+
+/* =========================
+   INPUTS
+========================= */
+QLineEdit {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+QLineEdit:focus {
+    border: 1px solid #2d89ef;
+}
+
+/* =========================
+   LABELS
+========================= */
+QLabel {
+    font-size: 14px;
+}
+
+/* =========================
+   TARJETAS (CARDS)
+========================= */
+QFrame#card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+/* =========================
+   SIDEBAR (MENÚ)
+========================= */
+QFrame#sidebar {
+    background-color: #1e2a38;
+}
+
+QFrame#sidebar QPushButton {
+    background-color: transparent;
+    text-align: left;
+    padding-left: 15px;
+}
+
+QFrame#sidebar QPushButton:hover {
+    background-color: #2d89ef;
+}
