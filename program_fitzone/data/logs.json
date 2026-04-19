@@ -1,0 +1,198 @@
+[
+    {
+        "date": "2026-04-14 15:55:38",
+        "message": "Intento fallido de login: admin@mail.com"
+    },
+    {
+        "date": "2026-04-14 15:55:44",
+        "message": "Intento fallido de login: admin@mail.com"
+    },
+    {
+        "date": "2026-04-14 15:56:20",
+        "message": "Intento fallido de login: romel@mail.com"
+    },
+    {
+        "date": "2026-04-14 15:56:23",
+        "message": "Romel inici\u00f3 sesi\u00f3n"
+    },
+    {
+        "date": "2026-04-14 15:56:37",
+        "message": "Juan inici\u00f3 sesi\u00f3n"
+    },
+    {
+        "date": "2026-04-14 15:57:17",
+        "message": "Seguridad inici\u00f3 sesi\u00f3n"
+    },
+    {
+        "date": "2026-04-14 16:00:13",
+        "message": "Romel inici\u00f3 sesi\u00f3n"
+    },
+    {
+        "date": "2026-04-14 16:15:45",
+        "message": "Intento fallido de login: "
+    },
+    {
+        "date": "2026-04-14 19:21:34",
+        "message": "Romel inici\u00f3 sesi\u00f3n"
+    },
+    {
+        "date": "2026-04-15 12:58:30",
+        "message": "Romel inici\u00f3 sesi\u00f3n"
+    },
+    {
+        "date": "2026-04-15 12:59:21",
+        "message": "Usuario creado: pedro"
+    },
+    {
+        "date": "2026-04-15 12:59:33",
+        "message": "Usuario actualizado: pe@mail.com"
+    },
+    {
+        "date": "2026-04-15 12:59:49",
+        "message": "Usuario actualizado: pe@mail.com"
+    },
+    {
+        "date": "2026-04-15 12:59:56",
+        "message": "Usuario actualizado: pe@mail.com"
+    },
+    {
+        "date": "2026-04-15 13:00:40",
+        "message": "Usuario eliminado: pe@mail.com"
+    },
+    {
+        "date": "2026-04-15 13:01:02",
+        "message": "Juan inici\u00f3 sesi\u00f3n"
+    },
+    {
+        "date": "2026-04-15 13:02:03",
+        "message": "Intento fallido de login: seg@gmail.com"
+    },
+    {
+        "date": "2026-04-15 13:02:09",
+        "message": "Seguridad inici\u00f3 sesi\u00f3n"
+    },
+    {
+        "date": "2026-04-15 13:17:18",
+        "message": "Usuario creado: Romel"
+    },
+    {
+        "date": "2026-04-15 14:26:48",
+        "message": "Usuario creado: Romel"
+    },
+    {
+        "date": "2026-04-15 14:27:04",
+        "message": "Usuario creado: Romel"
+    },
+    {
+        "date": "2026-04-15 14:27:50",
+        "message": "Usuario creado: Romel"
+    },
+    {
+        "date": "2026-04-15 14:28:19",
+        "message": "Usuario creado: Romel"
+    },
+    {
+        "date": "2026-04-15 14:28:34",
+        "message": "Usuario creado: Romel"
+    },
+    {
+        "date": "2026-04-15 14:30:14",
+        "message": "Usuario creado: Romel"
+    },
+    {
+        "date": "2026-04-15 14:30:52",
+        "message": "Usuario creado: Romel"
+    },
+    {
+        "date": "2026-04-15 14:31:58",
+        "message": "Usuario creado: Romel"
+    },
+    {
+        "date": "2026-04-15 14:32:09",
+        "message": "Usuario creado: Romel"
+    },
+    {
+        "date": "2026-04-15 14:32:30",
+        "message": "Usuario creado: Romel"
+    },
+    {
+        "date": "2026-04-15 14:32:35",
+        "message": "Usuario creado: Romel"
+    },
+    {
+        "date": "2026-04-15 14:32:56",
+        "message": "Usuario creado: Romel"
+    },
+    {
+        "date": "2026-04-15 14:34:04",
+        "message": "Usuario creado: fernando"
+    },
+    {
+        "date": "2026-04-15 14:34:23",
+        "message": "Seguridad inici\u00f3 sesi\u00f3n"
+    },
+    {
+        "date": "2026-04-15 14:34:59",
+        "message": "Usuario creado: Romel"
+    },
+    {
+        "date": "2026-04-15 14:35:01",
+        "message": "Usuario creado: Romel"
+    },
+    {
+        "date": "2026-04-16 12:27:52",
+        "message": "Intento fallido: romel@gmail.com"
+    },
+    {
+        "date": "2026-04-16 12:27:57",
+        "message": "Romel inici\u00f3 sesi\u00f3n"
+    },
+    {
+        "date": "2026-04-16 12:45:13",
+        "message": "Romel inici\u00f3 sesi\u00f3n"
+    },
+    {
+        "date": "2026-04-16 12:45:53",
+        "message": "Juan inici\u00f3 sesi\u00f3n"
+    },
+    {
+        "date": "2026-04-16 12:47:44",
+        "message": "Seguridad inici\u00f3 sesi\u00f3n"
+    },
+    {
+        "date": "2026-04-16 12:49:29",
+        "message": "Romel inici\u00f3 sesi\u00f3n"
+    },
+    {
+        "date": "2026-04-16 12:50:05",
+        "message": "Juan inici\u00f3 sesi\u00f3n"
+    },
+    {
+        "date": "2026-04-16 12:50:40",
+        "message": "Seguridad inici\u00f3 sesi\u00f3n"
+    },
+    {
+        "date": "2026-04-16 13:05:44",
+        "message": "Intento fallido: 3rw"
+    },
+    {
+        "date": "2026-04-17 18:02:39",
+        "message": "Juan inici\u00f3 sesi\u00f3n"
+    },
+    {
+        "date": "2026-04-19 16:27:00",
+        "message": "Romel inici\u00f3 sesi\u00f3n"
+    },
+    {
+        "date": "2026-04-19 16:27:44",
+        "message": "Usuario creado: maria "
+    },
+    {
+        "date": "2026-04-19 16:27:50",
+        "message": "Usuario creado: maria "
+    },
+    {
+        "date": "2026-04-19 16:28:04",
+        "message": "Usuario creado: maria "
+    }
+]
