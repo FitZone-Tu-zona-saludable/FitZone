@@ -1,0 +1,6 @@
+projectKey=program_fitzone
+serverUrl=http://localhost:9000
+serverVersion=26.3.0.120487
+dashboardUrl=http://localhost:9000/dashboard?id=program_fitzone
+ceTaskId=a4a70958-16bd-4b3e-bb03-eb715d6516d1
+ceTaskUrl=http://localhost:9000/api/ce/task?id=a4a70958-16bd-4b3e-bb03-eb715d6516d1
