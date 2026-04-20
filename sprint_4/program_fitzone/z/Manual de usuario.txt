@@ -1,0 +1,47 @@
+
+---
+
+# 🟩 📘 2. MANUAL DE USUARIO
+
+📁 `manual_usuario.txt`
+
+---
+
+```text
+MANUAL DE USUARIO - FITZONE
+
+1. INICIO
+Ejecutar el sistema:
+python app.py
+
+2. LOGIN
+Ingresar credenciales:
+
+Admin:
+romel@mail.com / 1234
+
+Usuario:
+user@mail.com / 1234
+
+Seguridad:
+seg@mail.com / 1234
+
+3. FUNCIONALIDADES
+
+ADMIN:
+- Crear usuario
+- Listar usuarios
+- Actualizar usuario
+- Eliminar usuario
+
+USUARIO:
+- Visualiza mensaje de bienvenida
+
+SEGURIDAD:
+- Visualiza panel de monitoreo
+
+4. NAVEGACIÓN
+- Botón "Volver" para regresar
+
+5. ERRORES
+- Si el login falla, verificar credenciales
