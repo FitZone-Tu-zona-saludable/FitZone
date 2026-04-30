@@ -1,0 +1,29 @@
+[
+    {
+        "id": "3edb7e8a-e04f-4d9d-9131-773c0557a3f5",
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "123",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": "594e7599-eb94-4009-9e02-38aef94806b6",
+        "name": "Juan",
+        "email": "user@mail.com",
+        "password": "123",
+        "role": "user",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": "b5a9d703-e96f-4153-a6fc-5c1330035e23",
+        "name": "Seguridad",
+        "email": "seg@mail.com",
+        "password": "123",
+        "role": "seguridad",
+        "payments": [],
+        "membership": null
+    }
+]

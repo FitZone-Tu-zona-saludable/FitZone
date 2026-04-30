@@ -1,0 +1,99 @@
+[
+    {
+        "id": "86bad68d-6fa8-40b2-af68-8662cb28d654",
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "123",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": "d4a2079c-e336-4e43-be31-d99d65126861",
+        "name": "Juan",
+        "email": "user@mail.com",
+        "password": "123",
+        "role": "user",
+        "payments": [
+            {
+                "id": 2,
+                "membership_id": 2,
+                "membership_name": "Estándar",
+                "amount": 80000.0,
+                "value": 80000.0,
+                "method": "Transferencia",
+                "reference": "",
+                "estado": "verificado",
+                "created_at": "2026-04-28 22:28:04",
+                "verified_at": "2026-04-28 22:28:30"
+            }
+        ],
+        "membership": {
+            "id": 2,
+            "name": "Estándar",
+            "tipo": "Estándar",
+            "price": 80000,
+            "duration_days": 30,
+            "description": "Acceso completo más clases grupales.",
+            "fechaInicio": "2026-04-28",
+            "fechaFin": "2026-05-28",
+            "estado": "activa",
+            "selected_at": "2026-04-28 22:27:45",
+            "trainer_id": null,
+            "trainer_name": null
+        }
+    },
+    {
+        "id": "960dca3c-1029-4544-8d62-4c11d0b244f1",
+        "name": "Seguridad",
+        "email": "seg@mail.com",
+        "password": "123",
+        "role": "seguridad",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": "6616a69e-8eb9-46ef-8284-b3df34e793ca",
+        "name": "Fernando",
+        "email": "fer@mail.com",
+        "password": "1234",
+        "role": "user",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": "c66a7b41-9d3c-4c43-9683-f52535ed097e",
+        "name": "juan",
+        "email": "juan@gmail.com",
+        "password": "1234",
+        "role": "user",
+        "payments": [
+            {
+                "id": 1,
+                "membership_id": 2,
+                "membership_name": "Estándar",
+                "amount": 80000.0,
+                "value": 80000.0,
+                "method": "Transferencia",
+                "reference": "",
+                "estado": "verificado",
+                "created_at": "2026-04-28 17:18:34",
+                "verified_at": "2026-04-28 17:35:50"
+            }
+        ],
+        "membership": {
+            "id": 2,
+            "name": "Estándar",
+            "tipo": "Estándar",
+            "price": 80000,
+            "duration_days": 30,
+            "description": "Acceso completo más clases grupales.",
+            "fechaInicio": "2026-04-28",
+            "fechaFin": "2026-05-28",
+            "estado": "activa",
+            "selected_at": "2026-04-28 17:17:48",
+            "trainer_id": 1,
+            "trainer_name": "Carla Mejía"
+        }
+    }
+]

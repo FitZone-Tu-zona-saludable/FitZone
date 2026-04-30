@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "123",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 2,
+        "name": "Juan",
+        "email": "user@mail.com",
+        "password": "123",
+        "role": "user",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 3,
+        "name": "Seguridad",
+        "email": "seg@mail.com",
+        "password": "123",
+        "role": "seguridad",
+        "payments": [],
+        "membership": null
+    }
+]

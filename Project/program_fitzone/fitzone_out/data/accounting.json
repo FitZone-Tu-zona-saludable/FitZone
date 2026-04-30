@@ -1,0 +1,12 @@
+[
+    {
+        "id_registro": 1,
+        "id_cliente": "d4a2079c-e336-4e43-be31-d99d65126861",
+        "nombre_cliente": "Juan",
+        "concepto": "Membresía Estándar - Juan (user@mail.com)",
+        "monto": 80000.0,
+        "estado": "pagado",
+        "fecha": "2026-04-28",
+        "fecha_vencimiento": ""
+    }
+]
