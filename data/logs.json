@@ -1,0 +1,102 @@
+[
+    {
+        "date": "2026-04-20 08:00:00",
+        "message": "Romel inició sesión"
+    },
+    {
+        "date": "2026-04-20 08:12:41",
+        "message": "Intento fallido: admin@fitzone.com"
+    },
+    {
+        "date": "2026-04-20 09:05:18",
+        "message": "Juan inició sesión"
+    },
+    {
+        "date": "2026-04-20 09:16:55",
+        "message": "Seguridad inició sesión"
+    },
+    {
+        "date": "2026-04-20 09:25:03",
+        "message": "Usuario creado: Fernando"
+    },
+    {
+        "date": "2026-04-20 10:02:11",
+        "message": "Intento fallido: visitante@mail.com"
+    },
+    {
+        "date": "2026-04-26 15:01:39",
+        "message": "Juan inició sesión"
+    },
+    {
+        "date": "2026-04-28 17:14:47",
+        "message": "Usuario creado: juan"
+    },
+    {
+        "date": "2026-04-28 17:14:55",
+        "message": "juan inició sesión"
+    },
+    {
+        "date": "2026-04-28 17:17:48",
+        "message": "Membresía seleccionada: juan@gmail.com -> Estándar"
+    },
+    {
+        "date": "2026-04-28 17:18:34",
+        "message": "Pago registrado: juan@gmail.com | plan: Estándar | ref: N/A"
+    },
+    {
+        "date": "2026-04-28 17:22:40",
+        "message": "Intento fallido: romel@mail"
+    },
+    {
+        "date": "2026-04-28 17:22:48",
+        "message": "Romel inició sesión"
+    },
+    {
+        "date": "2026-04-28 17:35:50",
+        "message": "Pago verificado: juan@gmail.com | pago #1"
+    },
+    {
+        "date": "2026-04-28 17:38:43",
+        "message": "Intento fallido: juan@gmail"
+    },
+    {
+        "date": "2026-04-28 17:38:52",
+        "message": "juan inició sesión"
+    },
+    {
+        "date": "2026-04-28 17:39:57",
+        "message": "Intento fallido: romel@mail"
+    },
+    {
+        "date": "2026-04-28 17:40:10",
+        "message": "Romel inició sesión"
+    },
+    {
+        "date": "2026-04-28 21:38:41",
+        "message": "Intento fallido: juan@gmail"
+    },
+    {
+        "date": "2026-04-28 21:39:01",
+        "message": "Romel inició sesión"
+    },
+    {
+        "date": "2026-04-29 14:08:23",
+        "message": "Romel inició sesión"
+    },
+    {
+        "date": "2026-05-01 10:21:28",
+        "message": "Usuario creado: alexander"
+    },
+    {
+        "date": "2026-05-01 10:21:53",
+        "message": "alexander inició sesión"
+    },
+    {
+        "date": "2026-05-01 10:23:28",
+        "message": "Membresía seleccionada: alex23@gmail.com -> Básico"
+    },
+    {
+        "date": "2026-05-01 10:23:48",
+        "message": "Pago registrado: alex23@gmail.com | plan: Básico | ref: 12233"
+    }
+]
