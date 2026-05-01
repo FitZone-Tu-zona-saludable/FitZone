@@ -1,0 +1,49 @@
+ui/
+│   accounting_view.py        # Vista para manejar contabilidad: reportes financieros, pagos, balances.
+│   admin_view.py             # Interfaz para administración general: gestión de usuarios, roles y permisos.
+│   attendance_view.py        # Vista para registrar y consultar asistencias de empleados o clientes.
+│   employee_view.py          # Pantalla para gestión de empleados: datos personales, cargos, estado laboral.
+│   evaluation_view.py        # Interfaz para evaluaciones de desempeño o progreso de usuarios/empleados.
+│   incident_view.py          # Vista para registrar y dar seguimiento a incidentes o novedades internas.
+│   login_view.py             # Pantalla de inicio de sesión: ingreso de credenciales y validación de acceso.
+│   plans_view.py             # Interfaz para mostrar y seleccionar planes o membresías disponibles.
+│   register_view.py          # Vista de registro de nuevos usuarios o empleados en el sistema.
+│   schedule_reasign_view.py  # Pantalla para reasignar horarios o turnos de empleados/usuarios.
+│   security_view.py          # Interfaz de seguridad: control de accesos, roles y validaciones adicionales.
+│   user_view.py              # Vista para gestión de usuarios: perfil, datos básicos y configuración personal.
+│   __init__.py               # Archivo que convierte la carpeta en módulo Python y organiza las importaciones.
+
+	Esta carpeta ui/ agrupa todas las vistas gráficas (PySide6 o similar) que el usuario final verá e interactuará. 	Cada archivo corresponde a una pantalla independiente del sistema (login, planes, empleados, seguridad, etc.).
+- ui/ = vistas iniciales, prototipo o módulo separado.
+- views/ = vistas definitivas, más completas y con mayor granularidad
+Granularidad significa el nivel de detalle o especificidad con el que se organiza o representa algo.
+ En el contexto de tu proyecto:
+• 	La carpeta  tiene vistas más generales (ejemplo:  abarca todo lo relacionado con empleados).
+• 	La carpeta  tiene vistas más granulares, es decir, más divididas y específicas (ejemplo: en lugar de un solo , tienes  y , cada uno enfocado en una parte concreta del módulo de empleados).
+
+views/
+│   accounting_view.py            # Vista para contabilidad: reportes financieros, ingresos/egresos, control de pagos.
+│   attendance_view.py            # Pantalla para registrar y consultar asistencias de empleados o clientes.
+│   employee_detail_view.py       # Vista detallada de información de un empleado: perfil, historial, evaluaciones.
+│   employee_payment_view.py      # Interfaz para gestionar pagos de empleados: salarios, comprobantes, historial.
+│   incident_view.py              # Vista para registrar y dar seguimiento a incidentes internos.
+│   login_view.py                 # Pantalla de inicio de sesión: ingreso de credenciales y validación de acceso.
+│   main_dashboard_view.py        # Panel principal del sistema: acceso rápido a módulos y estadísticas.
+│   membership_list_view.py       # Vista para listar membresías disponibles o activas.
+│   membership_select_view.py     # Pantalla para seleccionar una membresía específica y proceder con registro/pago.
+│   notifications_view.py         # Interfaz para mostrar notificaciones generales del sistema.
+│   payment_register_view.py      # Vista para registrar pagos de clientes (membresías, servicios).
+│   payment_verification_view.py  # Pantalla para verificar pagos realizados y confirmar su validez.
+│   performance_view.py           # Vista para evaluar desempeño de empleados o progreso de clientes.
+│   reports_view.py               # Interfaz para generar y consultar reportes administrativos o financieros.
+│   schedule_admin_view.py        # Pantalla para que administradores gestionen horarios y asignaciones.
+│   schedule_consult_view.py      # Vista para consultar horarios disponibles (clientes/empleados).
+│   schedule_reassign_view.py     # Interfaz para reasignar horarios o turnos.
+│   security_view.py              # Pantalla de seguridad: roles, permisos, accesos.
+│   staff_register_view.py        # Vista para registrar nuevo personal/empleados en el sistema.
+│   survey_view.py                # Interfaz para encuestas de satisfacción o retroalimentación.
+│   trainer_admin_view.py         # Pantalla para administración de entrenadores: asignaciones, perfiles, horarios.
+│   trainer_select_view.py        # Vista para que clientes seleccionen un entrenador disponible.
+│   user_view.py                  # Pantalla de gestión de usuarios: perfil, configuración, datos básicos.
+│   worker_notifications_view.py  # Vista para notificaciones específicas dirigidas a empleados.
+│   __init__.py                   # Archivo que convierte la carpeta en módulo Python y organiza las importaciones.

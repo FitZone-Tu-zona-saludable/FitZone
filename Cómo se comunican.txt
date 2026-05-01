@@ -1,0 +1,19 @@
+ Cómo se comunican
+1. 	main.py → arranca la aplicación y carga .
+2. 	views/ → muestran la interfaz al usuario.
+• 	Ejemplo:  recibe credenciales.
+3. 	controllers/ → reciben las acciones de las vistas.
+• 	Ejemplo:  valida login contra el backend.
+4. 	services/ → ejecutan la lógica transversal.
+• 	Ejemplo:  maneja tokens y sesiones,  conecta con la API.
+5. 	resources/ → aplican estilos a las vistas.
+6. 	pages/ → integran vistas en flujos completos (ejemplo:  conecta dashboard, empleados, entrenadores, etc.).
+Flujo típico:
+Vista (views) → Controlador → Servicio → Backend/Base de datos → Respuesta → Vista actualizada.
+
+estructura MVC extendido:
+• 	Views = interfaz gráfica.
+• 	Controllers = lógica de negocio.
+• 	Services = conexión y soporte transversal.
+• 	Resources = estilos.
+• 	Pages = integración de módulos.

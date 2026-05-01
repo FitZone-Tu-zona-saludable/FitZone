@@ -1,0 +1,81 @@
+frontend/
+│   main.py                      # Punto de entrada del frontend: inicializa la aplicación y carga la vista principal.
+│   __init__.py                  # Convierte la carpeta en módulo Python.
+
+├── controllers/                 # Controladores: reciben eventos de las vistas y ejecutan lógica de negocio.
+│   accounting_controller.py     # Lógica de contabilidad: cálculos, reportes financieros, integración con pagos.
+│   attendance_controller.py     # Control de asistencias: registrar, consultar y validar entradas/salidas.
+│   auth_controller.py           # Autenticación: login, registro, validación de credenciales.
+│   employee_controller.py       # Gestión de empleados: CRUD de datos personales y laborales.
+│   employee_payment_controller.py # Manejo de pagos a empleados: salarios, comprobantes.
+│   incident_controller.py       # Registro y seguimiento de incidentes internos.
+│   membership_controller.py     # Control de membresías: creación, selección, vencimientos.
+│   payment_controller.py        # Procesamiento de pagos de clientes: registro, verificación.
+│   performance_controller.py    # Evaluación de desempeño de empleados o progreso de clientes.
+│   report_controller.py         # Generación de reportes administrativos y financieros.
+│   schedule_controller.py       # Gestión de horarios: asignación, consulta, reasignación.
+│   security_controller.py       # Seguridad: roles, permisos, accesos.
+│   survey_controller.py         # Encuestas de satisfacción y retroalimentación.
+│   trainer_controller.py        # Administración de entrenadores: asignaciones, perfiles, horarios.
+│   __init__.py                  # Organiza importaciones del paquete de controladores.
+│   __pycache__/                 # Archivos compilados de Python.
+
+├── resources/                   # Recursos compartidos: estilos, temas visuales.
+│   theme.py                     # Define colores, tipografías y estilos de la interfaz.
+│   __init__.py                  # Convierte la carpeta en módulo.
+│   __pycache__/                 # Archivos compilados.
+
+├── services/                    # Servicios: lógica transversal que conecta vistas/controladores con backend.
+│   alert_service.py             # Manejo centralizado de alertas y notificaciones.
+│   api_service.py               # Conexión principal con la API/backend.
+│   api_service_ext.py           # Extensiones o endpoints adicionales de la API.
+│   app_context.py               # Contexto global de la aplicación (estado compartido).
+│   auth_service.py              # Servicios de autenticación (tokens, sesiones).
+│   navigation_service.py        # Control de navegación entre vistas/páginas.
+│   state_service.py             # Manejo del estado global (variables compartidas).
+│   __init__.py                  # Organiza importaciones del paquete de servicios.
+│   __pycache__/                 # Archivos compilados.
+
+├── views/                       # Vistas gráficas: pantallas que ve el usuario.
+│   accounting_view.py           # Vista contable.
+│   attendance_view.py           # Vista de asistencias.
+│   employee_detail_view.py      # Detalle de empleados.
+│   employee_payment_view.py     # Pagos de empleados.
+│   incident_view.py             # Incidentes.
+│   login_view.py                # Login.
+│   main_dashboard_view.py       # Panel principal.
+│   membership_list_view.py      # Lista de membresías.
+│   membership_select_view.py    # Selección de membresía.
+│   notifications_view.py        # Notificaciones generales.
+│   payment_register_view.py     # Registro de pagos.
+│   payment_verification_view.py # Verificación de pagos.
+│   performance_view.py          # Evaluación de desempeño.
+│   reports_view.py              # Reportes.
+│   schedule_admin_view.py       # Administración de horarios.
+│   schedule_consult_view.py     # Consulta de horarios.
+│   schedule_reassign_view.py    # Reasignación de horarios.
+│   security_view.py             # Seguridad.
+│   staff_register_view.py       # Registro de personal.
+│   survey_view.py               # Encuestas.
+│   trainer_admin_view.py        # Administración de entrenadores.
+│   trainer_select_view.py       # Selección de entrenador.
+│   user_view.py                 # Gestión de usuarios.
+│   worker_notifications_view.py # Notificaciones para empleados.
+│   __init__.py                  # Organiza importaciones del paquete de vistas.
+
+│   ├── components/              # Componentes reutilizables dentro de las vistas.
+│   │   alerts.py                # Componente para mostrar alertas/notificaciones.
+│   │   widgets.py               # Widgets personalizados (inputs, tablas, botones).
+│   │   __init__.py              # Organiza importaciones.
+│   │   __pycache__/             # Archivos compilados.
+
+│   ├── pages/                   # Páginas principales que integran varias vistas.
+│   │   alerts_page.py           # Página de alertas.
+│   │   employee_page.py         # Página de empleados.
+│   │   main_page.py             # Página principal (menú/control central).
+│   │   schedule_page.py         # Página de horarios.
+│   │   sprint3_page.py          # Página del Sprint 3 (módulos entregados en esa fase).
+│   │   sprint4_page.py          # Página del Sprint 4.
+│   │   sprint5_page.py          # Página del Sprint 5.
+│   │   trainer_page.py          # Página de entrenadores.
+│   │   __init__.py              # Organiza importaciones.
