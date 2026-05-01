@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "name": "Romel",
+        "email": "romel@mail.com",
+        "password": "123",
+        "role": "admin",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 2,
+        "name": "Juan",
+        "email": "user@mail.com",
+        "password": "123",
+        "role": "user",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 3,
+        "name": "Seguridad",
+        "email": "seg@mail.com",
+        "password": "123",
+        "role": "seguridad",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 4,
+        "name": "Fernando",
+        "email": "fer@mail.com",
+        "password": "1234",
+        "role": "user",
+        "payments": [],
+        "membership": null
+    },
+    {
+        "id": 5,
+        "name": "juan",
+        "email": "juan@gmail.com",
+        "password": "1234",
+        "role": "user",
+        "payments": [
+            {
+                "id": 1,
+                "membership_id": 2,
+                "membership_name": "Estándar",
+                "amount": 80000.0,
+                "value": 80000.0,
+                "method": "Transferencia",
+                "reference": "",
+                "estado": "verificado",
+                "created_at": "2026-04-28 17:18:34",
+                "verified_at": "2026-04-28 17:35:50"
+            }
+        ],
+        "membership": {
+            "id": 2,
+            "name": "Estándar",
+            "tipo": "Estándar",
+            "price": 80000,
+            "duration_days": 30,
+            "description": "Acceso completo más clases grupales.",
+            "fechaInicio": "2026-04-28",
+            "fechaFin": "2026-05-28",
+            "estado": "activa",
+            "selected_at": "2026-04-28 17:17:48",
+            "trainer_id": 1,
+            "trainer_name": "Carla Mejía"
+        }
+    }
+]

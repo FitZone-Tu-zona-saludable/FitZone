@@ -1,0 +1,68 @@
+[
+    {
+        "id_trabajador": 1,
+        "nombre": "Carla Mejía",
+        "cargo": "Entrenadora",
+        "telefono": "3001112233",
+        "correo": "carla@fitzone.com",
+        "experiencia": "6 años",
+        "modalidad": "presencial",
+        "revision_medica": true,
+        "documento": "TR-1001",
+        "especialidad": "yoga",
+        "horarios": [
+            1,
+            4
+        ],
+        "disponible": true
+    },
+    {
+        "id_trabajador": 2,
+        "nombre": "Luis Rojas",
+        "cargo": "Entrenador",
+        "telefono": "3002223344",
+        "correo": "luis@fitzone.com",
+        "experiencia": "4 años",
+        "modalidad": "presencial",
+        "revision_medica": true,
+        "documento": "TR-1002",
+        "especialidad": "cardio",
+        "horarios": [
+            2,
+            6
+        ],
+        "disponible": true
+    },
+    {
+        "id_trabajador": 3,
+        "nombre": "Paula Torres",
+        "cargo": "Entrenadora",
+        "telefono": "3003334455",
+        "correo": "paula@fitzone.com",
+        "experiencia": "5 años",
+        "modalidad": "presencial",
+        "revision_medica": true,
+        "documento": "TR-1003",
+        "especialidad": "fuerza",
+        "horarios": [
+            3
+        ],
+        "disponible": true
+    },
+    {
+        "id_trabajador": 4,
+        "nombre": "Mateo Díaz",
+        "cargo": "Entrenador",
+        "telefono": "3004445566",
+        "correo": "mateo@fitzone.com",
+        "experiencia": "3 años",
+        "modalidad": "presencial",
+        "revision_medica": true,
+        "documento": "TR-1004",
+        "especialidad": "spinning",
+        "horarios": [
+            5
+        ],
+        "disponible": false
+    }
+]
